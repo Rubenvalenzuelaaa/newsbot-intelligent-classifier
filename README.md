@@ -40,3 +40,21 @@ predict_category("The government just released a new AI policy.")
 
 predict_category("El gobierno acaba de anunciar una nueva política de inteligencia artificial.")
 # Output: 'politics'
+Model accuracy: 97% on test set of 298 articles
+Perfect classification in categories like Entertainment and Tech
+
+📂 Files Included
+ITAI2373_NewsBot_FinalProject.ipynb: Final notebook with training, evaluation, and UI
+
+BBC News Train.xlsx: Training dataset
+
+BBC News Test.xlsx: Testing dataset
+
+README.md: Project documentation
+
+👤 Author
+Rubén Darío Valenzuela
+Bachelor of Science – Applied AI & Robotics
+Houston Community College
+📧 rubendariovalenzuelaalvarado@gmail.com
+📅 2025
