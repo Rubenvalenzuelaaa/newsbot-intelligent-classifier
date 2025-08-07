@@ -1,49 +1,42 @@
-# 🧠 NewsBot – Intelligent News Classifier
+# 🧠 NewsBot Intelligence System 2.0 – Advanced Multilingual NLP Platform
 
-This project is a smart AI news classifier built with Python and NLP. It uses TF-IDF vectorization and a Multinomial Naive Bayes model to predict categories such as politics, sports, tech, entertainment, and business.
+This project is a production-ready AI platform developed using advanced NLP techniques and Python. It expands upon a midterm prototype into a complete system that automatically classifies news articles by topic (e.g., politics, sports, tech), performs multilingual translation, applies sentiment and emotion analysis, and features an interactive conversational interface. It demonstrates mastery of core concepts in natural language processing and AI system integration.
+
+---
 
 ## 🚀 Features
 
-- Clean dataset processing
-- TF-IDF vectorization
-- Multinomial Naive Bayes model
-- Classification report with precision, recall, and F1-score
-- Real-time user input via NewsBot interface
+- Clean and preprocessed dataset (BBC News)
+- TF-IDF vectorization for text representation
+- Multinomial Naive Bayes classifier with high accuracy
+- Real-time prediction via NewsBot interface
+- Sentiment and emotion analysis (VADER + TextBlob)
+- Named Entity Recognition (spaCy)
+- Text summarization (NLTK / HuggingFace)
+- Multilingual support using Google Translate API
+- Dependency parsing and POS tagging
+- Interactive conversational interface using Gradio
 
-## 🛠 Technologies
+---
 
-- Python
+## 🧰 Technologies Used
+
+- Python 3.11
 - scikit-learn
-- pandas
-- Jupyter / Colab
+- pandas, numpy
+- NLTK, spaCy, TextBlob, VADER
+- HuggingFace Transformers
+- Google Translate API
+- Gradio (for UI)
+- Jupyter / Google Colab
 
-## 🧪 Example
-```
+---
+
+## 🧪 Example Usage
 
 ```python
 predict_category("The government just released a new AI policy.")
 # Output: 'politics'
-## 📊 Model Performance
 
-- Accuracy: 97%
-- Tested on 298 articles
-- Perfect classification in categories like Entertainment and Tech
-
-## 🤖 NewsBot UI
-
-```python
-newsbot()
-# Prompts the user for a news article and returns the predicted category
-## 📁 Files Included
-
-- `newsbot.ipynb`: Main notebook with model training and UI
-- `BBC News Train.xlsx`: Training data
-- `BBC News Test.xlsx`: Test data
-- `BBC News Sample Solution.xlsx`: Expected output
-- `README.md`: Project documentation
-
-## 👤 Author
-
-Rubén Darío Valenzuela  
-Houston Community College – AI & Robotics  
-2025
+predict_category("El gobierno acaba de anunciar una nueva política de inteligencia artificial.")
+# Output: 'politics'
